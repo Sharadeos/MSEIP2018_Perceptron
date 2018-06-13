@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
 
 		std::cout << "Current sample is labeled " << label << endl;
 		
-		std::cout << row[0];
+		std::cout << row[0] << endl;
 
 
 	}
