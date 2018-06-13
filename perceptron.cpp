@@ -4,6 +4,7 @@
 #include <sstream>
  
 int main(int argc, char *argv[]) {
+	
 	/* 
 	* Code to load a CSV into a 2-D vector. No need to modify
 	* the following code.
@@ -34,8 +35,11 @@ int main(int argc, char *argv[]) {
 	}
 
 	/* 
-	* Part 1: Reflex agent
+	* Part 1: Perceptron
+	* Begin Coding Here
 	*/
+	
+	
 	// Iterate over the array and make a decision based on some value.
 	for (const auto &row : data) {
 		// Each row represents a data sample.
@@ -53,20 +57,12 @@ int main(int argc, char *argv[]) {
 			std::cout << col << '\t';
 		std::cout << std::endl;
 
-		std::cout << "Current sample is labeled " << label;
+		std::cout << "Current sample is labeled " << label << endl;
+		
+		std::cout << row[0];
 
-		/* 
-		* Part 1.1: Reflex rule
-		*/
-
-		/* 
-		* Part 1.2: Reflex rule
-		*/
 
 	}
 
-	/* 
-	* Part 2: Performance metrics
-	*/
 	
 	}
